@@ -1,0 +1,42 @@
+[
+    {
+        "date": "20190102",
+        "description": "春节购会员福利",
+        "subject": "501职工活动支出",
+        "subsubject": "50104其他活动支出",
+        "debit": 34000,
+        "credit": 0
+    },
+    {
+        "date": "20190203",
+        "description": "慰问生病会员沈某某",
+        "subject": "502维权支出",
+        "subsubject": "50205送温暖费",
+        "debit": 500,
+        "credit": 0
+    },
+    {
+        "date": "20190204",
+        "description": "慰问生病会员李某",
+        "subject": "502维权支出",
+        "subsubject": "50205送温暖费",
+        "debit": 300,
+        "credit": 0
+    },
+    {
+        "date": "20190203",
+        "description": "慰问生病会员沈某某",
+        "subject": "502维权支出",
+        "subsubject": "50205送温暖费",
+        "debit": 500,
+        "credit": 0
+    },
+    {
+        "date": "20190204",
+        "description": "慰问生病会员李某",
+        "subject": "502维权支出",
+        "subsubject": "50205送温暖费",
+        "debit": 300,
+        "credit": 0
+    }
+]
