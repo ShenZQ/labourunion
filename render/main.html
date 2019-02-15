@@ -10,5 +10,20 @@
 </head>
 <body>
     <h1>Hello</h1>
+    <div type="datepicker"></div>
+    <div type="datepicker"></div>
+    <div type="datepicker"></div>
+    <script>
+    (function(){
+        var datepicker = document.querySelectorAll('[type="datepicker"]');
+        for (var i = 0; i < datepicker.length; i++) {
+            datepicker[i].innerText = new Date().toLocaleDateString();
+            datepicker[i].setAttribute('value', datepicker[i].innerText);
+            datepicker[i].onclick = (e) => {
+                alert(e.target.getAttribute('value'));
+            }
+        }
+    })();
+    </script>
 </body>
 </html>
