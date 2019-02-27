@@ -5,25 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <title>Page Title</title> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="renderer.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../datepicker/datepicker.css" /> 
 </head>
 <body>
     <h1>Hello</h1>
-    <div type="datepicker"></div>
-    <div type="datepicker"></div>
-    <div type="datepicker"></div>
-    <script>
-    (function(){
-        var datepicker = document.querySelectorAll('[type="datepicker"]');
-        for (var i = 0; i < datepicker.length; i++) {
-            datepicker[i].innerText = new Date().toLocaleDateString();
-            datepicker[i].setAttribute('value', datepicker[i].innerText);
-            datepicker[i].onclick = (e) => {
-                alert(e.target.getAttribute('value'));
-            }
-        }
-    })();
-    </script>
+    <input type="text" gallary="datepicker" />
+    <input type="text" gallary="datepicker" />
+    <input type="text" gallary="datepicker" />
+    <script src="../datepicker/datepicker.js"></script>
 </body>
 </html>
