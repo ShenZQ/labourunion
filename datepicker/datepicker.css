@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+[gallary="datepicker"]{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    background-color: #eeeeee;
+    box-shadow: none;
+    padding: 0 5px;
+    transition: all 0.3s;
+}
+
+[gallary="datepicker"]:focus{
+    border: 1px solid #8e8cf3;
+}
+
+.canl-pane {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+    width: 210px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 0.8em;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.canl span {
+    padding: 3px;
+}
+
+.canl-header {
+    padding: 5px;
+    display: flex;
+    background-color: #F11;
+    color: white;
+    align-items: baseline;
+    width: 200px;
+    font-weight: bold;
+}
+
+.year {
+    flex-grow: 2;
+    text-align: right;
+}
+
+.month {
+    flex-grow: 2;
+    text-align: left;   
+}
+.prevYear,
+.prevMonth,
+.nextYear,
+.nextMonth{
+    cursor: pointer;
+    color: black;
+}
+.weekTitle,
+.dateRow {
+    display: flex;
+    padding: 1px 5px;
+}
+
+.weekTitle>div {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #e0dada;
+}
+
+.dateRow>div {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.otherMonth{
+    color: gray;
+}
+.today{
+    border-radius: 50%;
+    background-color: #F11;
+    color: white;
+}
+.selected{
+    border-radius: 50%;
+    background-color: #745ec5;
+    color: yellow;
+}
